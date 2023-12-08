@@ -12,8 +12,25 @@ MTP: Mesh Transport Protocol
 
 
 Introduction
-============
-Although the Internet evolved as a robust network, many aspects are set in stone causing ossification. Autonomous Systems block traffic other than TCP and UDP. A consequence is the difficulty in extending routing for multicasting and broadcasting. Another challenge is that the legacy application layer protocols follow the client-server paradigm where only a single client can communicate with a single server using legacy transport layer protocols such as TCP or UDP. We call this approach the single-client-to-single-server (SCSS) paradigm. Moreover, the separation of policy from mechanism is not foreseen in present transport layer protocols. The SCSS paradigm can be extended by developing a transport layer protocol that helps a client communicate with multiple servers concurrently which we refer to as mesh transport protocol (MTP). We encounter mesh networks such as Bluetooth Mesh Network or TRILL at various layers of the stack across domains. However, there is no transport layer protocol that leverages mesh networking technologies. In this project, we will address this gap and design and develop a Mesh Transport Protocol (MTP) separating policy from mechanism.
+~~~~~~~~~~~~
+Although the Internet evolved as a robust network, many aspects are set
+in stone causing ossification. Autonomous Systems block traffic other
+than TCP and UDP. A consequence is the difficulty in extending routing
+for multicasting and broadcasting. Another challenge is that the legacy
+application layer protocols follow the client-server paradigm where only
+a single client can communicate with a single server using legacy
+transport layer protocols such as TCP or UDP. We call this approach
+the single-client-to-single-server (SCSS) paradigm. Moreover, the
+separation of policy from mechanism is not foreseen in present
+transport layer protocols. The SCSS paradigm can be extended by
+developing a transport layer protocol that helps a client communicate
+with multiple servers concurrently which we refer to as mesh
+transport protocol (MTP). We encounter mesh networks such as
+Bluetooth Mesh Network or TRILL at various layers of the stack
+across domains. However, there is no transport layer protocol
+that leverages mesh networking technologies. In this project,
+we will address this gap and design and develop a Mesh Transport
+Protocol (MTP) separating policy from mechanism.
 
 
 Why MTP?
@@ -35,7 +52,7 @@ Multi-path Transport Layer Protocols (MPTCP, MRDS, SCCP, etc.) follow the SCSS p
 .. image:: images/MTPMindMap.png
    :alt: MTP MTPMindMap
 
-
+As we show in [mindmap]
 
 
 Indices and tables
