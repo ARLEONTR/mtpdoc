@@ -1,0 +1,7 @@
+{
+    "esbonio.sphinx.confDir": "${workspaceFolder}",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "esbonio.server.pythonPath": "/usr/bin/python3",
+    "restructuredtext.linter.rstcheck.executablePath": "/usr/local/bin/rstcheck",
+    
+}
